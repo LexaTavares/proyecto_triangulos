@@ -1,0 +1,58 @@
+mixin encabezado()
+  doctype html
+  html(lang="en")
+  head
+      meta(charset="utf-8")
+      meta(name="viewport",content="width=device-width, initial-scale=1.0")
+      title Ejercicio Triángulos
+      link(rel="stylesheet",href="css/style.css")
+      link(rel="stylesheet",href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css")
+  body
+
+mixin triangulo()
+  section.container
+    section.row
+      section.col.s12
+        div.col.s6
+          img.responsive-image(src="img/logo.png" alt="logo")
+        div.col.s6
+            ul.valign-wrapper.offset-s1
+              li
+                a(href="home.html") HOME
+              li
+                a(href="pages.html") PAGES
+              li
+                a(href="blog.html") BLOG
+              li
+                a(href="portfolio.html") PORTFOLIO
+              li
+                a(href="shortcodes.html") SHORTCODES
+
+
+  mixin footer()
+    section.container
+      section.row
+        section.contact
+    section.footer.col.s12
+      section.container
+        section.row
+          div.col.s6
+            h5 Testimonial
+            div.col.s12
+              img.col.s3(src="img/profile1.png" alt="profile1")
+              p.col.s6 "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            div.col.s12
+              img.col.s3(src="img/profile2.png" alt="profile2")
+              p.col.s6 "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+          div.col.s3
+            h5 Contacts
+            p Email:email@email.com
+            p Phone:+1(123)456 7890
+            p Fax:+1(123)456 7891
+          div.col.s3
+            h5 Send a message
+            form
+              input(type="text" placeholder="Name")
+              input(type="text" placeholder="Email Id")
+              textarea(placeholder="Your text here" rows="20" cols="80")
+              button.green SUBMIT

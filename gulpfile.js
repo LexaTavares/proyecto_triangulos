@@ -6,7 +6,7 @@ gulp.task('jade', function(){
     .pipe(jade({
         pretty: true
     }))
-    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest('./dist/'))
 })
 gulp.task('watch', function(){
     gulp.watch('./src/*.jade', ['jade'])
