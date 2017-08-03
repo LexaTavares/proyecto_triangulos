@@ -11,7 +11,7 @@ html(lang="en")
       section.row
         section.col.s12
           div.col.s6
-            img.responsive-image(src="img/logo.png")
+            img.responsive-image(src="img/logo.png" alt="logo")
           div.col.s6
           ul.valign-wrapper.offset-s1
             li
@@ -19,22 +19,101 @@ html(lang="en")
             li
               a PAGES
             li
-              a BLOG
+              a(href="blog.html") BLOG
             li
               a PORTFOLIO
             li
               a SHORTCODES
-    section.container
-      section.row
-        section.aboutus
-          h3 About us
+    section.aboutus
+      section.container
+        section.row
+          h4 About us
           h6 Why our Clients love to work with us.
     section.container
       section.row
         section
           div.col.s7
-            img(src="img/1.png")
+            img(src="img/1.png" alt="1")
           div.col.s5.paragraph
             p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             p Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    section.container
+      section.row
+        section.col.s4
+          div
+            img(src="img/icon1.png" alt="icon1")
+          div
+            h5 Incredibly Responsive
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        section.col.s4
+          div
+            img(src="img/icon2.png" alt="icon2")
+          div
+            h5 Incredibly Responsive
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        section.col.s4
+          div
+            img(src="img/icon3.png" alt="icon3")
+          div
+            h5 Incredibly Responsive
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    section.aboutus.col.s12
+      section.container
+        section.row
+          div.col.s5
+            h4 Triangle Corporate Template
+            h6 A responsive, retina-ready & wide multipurpose template.
+          div.col.s7
+            button TAKE THE TOUR
+            img(src="img/tour-icon2.png" alt="tour-icon2")
+    section.container
+      section.row
+        section.center-align
+          h4 Meet the Team
+          p Lorem ipsum dolor sit amet, consectetur adipisicing elit
+    section.container
+      section.row
+        section.col.s12
+          div.col.s3
+            img.col.s12(src="img/4.jpg" alt="4")
+            h6 John Doe
+            p CEO & Developer
+          div.col.s3
+            img.col.s12(src="img/3.jpg" alt="3")
+            h6 John Doe
+            p CEO & Developer
+          div.col.s3
+            img.col.s12(src="img/4.jpg" alt="4")
+            h6 John Doe
+            p CEO & Developer
+          div.col.s3
+            img.col.s12(src="img/1.jpg" alt="1")
+            h6 John Doe
+            p CEO & Developer
+    section.container
+      section.row
+        section.contact
+    section.footer.col.s12
+      section.container
+        section.row
+          div.col.s6
+            h5 Testimonial
+            div.col.s12
+              img.col.s3(src="img/profile1.png" alt="profile1")
+              p.col.s6 "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            div.col.s12
+              img.col.s3(src="img/profile2.png" alt="profile2")
+              p.col.s6 "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+          div.col.s3
+            h5 Contacts
+            p Email:email@email.com
+            p Phone:+1(123)456 7890
+            p Fax:+1(123)456 7891
+          div.col.s3
+            h5 Send a message
+            form
+              input(type="text" placeholder="Name")
+              input(type="text" placeholder="Email Id")
+              textarea(placeholder="Your text here" rows="20" cols="80")
+              button SUBMIT
     script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js")
